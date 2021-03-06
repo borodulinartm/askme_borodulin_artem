@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>Top navbar example · Bootstrap v5.0</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/my.css" rel="stylesheet">
+    <link href="css/user_settings.css" rel="stylesheet">
     
     <!-- Custom styles for this template -->
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">AskBorodulin</a>
+        <a class="navbar-brand" href="index.html">AskBorodulin</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,9 +23,6 @@
         </div>
           <div class="pull-right">
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="btn btn-success" href="ask_question.html" target="_blank">Ask</a>
-                </li>
                 <li class="nav-item">
                   <div class="p-2 text-light">Artem</div>
                 </li>
@@ -43,25 +40,30 @@
       <div class="container">
           <div class="row">
             <!-- Block with questions -->
-              <div class="col-7">
-                <div class="title">New questions <a href= "#" class="hot_questions">Hot questions</a></div>
-                  <div class="bg-light p-5 row question">
-                      <div class="col-2">
-                          <img src="img/question_icon.png">
-                      </div>
-                      <div class="col-10">
-                          <div class="header"><a href="answers.html">How to create a moon park</a></div>
-                          <div class="text_question">
-                              This's a temp text, while django is not connected
-                              Lorem ipsum dolor sit amet...
-                          </div>
-                          <div class="answer_question">
-                              <a class = "answer_link" href="answers.html">Answers (2)</a>
-                              <span class="tags">Tags: <a href="searching_by_tag.html"> python</a></span>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+            <div class="col-7 form_div">
+              <div class="question_title">User settings</div>
+              <form method="POST">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1" class="title_form">Login</label>
+                  <input type="input" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1" class="title_form">E-mail</label>
+                  <input type="input" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group title_input">
+                  <label for="exampleFormControlInput1" class="title_form">Nick name</label>
+                  <input type="input" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group title_input">
+                  <label for="exampleFormControlFile1" class="title_form">Upload your avatar</label>
+                  <div class="upload_image_btn"><input type="file" class="form-control-file" id="exampleFormControlFile1"></div>
+                </div>
+                <div class="form-group title_input">
+                  <a class="btn btn-danger">Save</a>
+                </div>
+              </form>
+            </div>
               <div class="col-2"></div>
               <div class="col-3 tags_block">
                   <div class="bg-light p-5 block_tags">
