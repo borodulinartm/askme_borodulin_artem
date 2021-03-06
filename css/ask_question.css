@@ -1,0 +1,52 @@
+body {
+  min-height: 75rem;
+}
+
+.question {
+	border: 1px gray solid;
+	border-radius: 20px;
+	margin: 75px 150px 15px 10px;
+}
+
+
+.current_tag {
+	font-size: 24px;
+	margin: 20px 25px 15px 0px;
+}
+
+.tag_list_header {
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+
+.favorite_members {
+	margin: 100px 0px 20px 0px;
+	font-size: 30px;
+}
+
+.block_tags {
+	border: 1px gray solid;
+	border-radius: 16px;
+}
+
+.question_title {
+	font-size: 60px;
+}
+
+.question {
+	border: 1px gray solid;
+	border-radius: 20px;
+	margin: 75px 150px 15px 10px;
+}
+
+.form_div div {
+	margin-bottom: 30px;
+}
+
+.form_div a {
+	font-size: 24px;
+}
+
+.title_form {
+	font-size: 24px;
+}
