@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Top navbar example · Bootstrap v5.0</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/ask_question.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
     
     <!-- Custom styles for this template -->
   </head>
@@ -24,13 +24,10 @@
           <div class="pull-right">
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                  <div class="p-2 text-light">Artem</div>
+                  <a class="nav-link" href="#">Log in</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Settings</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" tabindex="-1">Log out</a>
+                  <a class="nav-link" href="#" tabindex="-1">Register</a>
                 </li>
               </ul>
           </div>
@@ -41,27 +38,24 @@
           <div class="row">
             <!-- Block with questions -->
             <div class="col-7 form_div">
-            	<div class="question_title">New question</div>
-            	<form>
-      				  <div class="form-group">
-      				    <label for="exampleFormControlInput1" class="title_form">Title</label>
-      				    <input type="input" class="form-control" id="exampleFormControlInput1">
-      				  </div>
-      				  <div class="form-group">
-      				    <label for="exampleFormControlTextarea1" class="title_form">Description</label>
-      				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"></textarea>
-      				  </div>
-      				  <div class="form-group title_input">
-      				    <label for="exampleFormControlInput1" class="title_form">Tags</label>
-      				    <input type="input" class="form-control" id="exampleFormControlInput1">
-      				  </div>
-      				  <div class="form-group title_input">
-      				    <a class="btn btn-primary">Ask</a>
-      				  </div>
-      				</form>
-              <div class="alert alert-danger error_message" role="alert">
-                Error in inputing tags!
-              </div>
+              <div class="title">Log In</div>
+                <div class="bg-light p-5 row question">
+                  <form method="GET">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control input_form" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your e-mail">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control input_form" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Log in!</button>
+                    <div class="sign_up"><a href="#">Create new account</a></div>
+                  </form>
+                  <div class="alert alert-danger error_message" role="alert">
+                    Wrong password!
+                  </div>
+                </div>
             </div>
               <div class="col-2"></div>
               <div class="col-3 tags_block">

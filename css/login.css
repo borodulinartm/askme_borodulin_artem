@@ -8,7 +8,6 @@ body {
 	margin: 75px 150px 15px 10px;
 }
 
-
 .current_tag {
 	font-size: 24px;
 	margin: 20px 25px 15px 0px;
@@ -29,28 +28,26 @@ body {
 	border-radius: 16px;
 }
 
-.question_title {
+.title {
 	font-size: 60px;
 }
 
-.question {
-	border: 1px gray solid;
-	border-radius: 20px;
-	margin: 75px 150px 15px 10px;
-}
-
-.form_div div {
+.form_div {
 	margin-bottom: 30px;
 }
 
-.form_div a {
+label {
 	font-size: 24px;
 }
 
-.title_form {
-	font-size: 24px;
+.input_form {
+	margin-bottom: 35px;
 }
 
-.error_messagev {
+.sign_up {
+	margin-top: 35px;
+}
+
+.error_message {
 	margin-top: 35px;
 }
