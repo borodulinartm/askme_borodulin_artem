@@ -54,3 +54,20 @@ body {
 	font-size: 20px;
 	margin-left: 36px;
 }
+
+.paginator {
+	position: absolute;
+}
+
+.like_button {
+	margin-top: 15px;
+}
+
+.count_likes_button {
+	margin-top: 15px;
+}
+
+.count_likes {
+	font-size: 24px;
+	padding-right: 5px;
+}

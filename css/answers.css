@@ -66,3 +66,21 @@ hr {
 textarea {
 	margin-top: 50px;
 }
+
+
+.like_button {
+	margin-top: 15px;
+}
+
+.count_likes_button {
+	margin-top: 15px;
+}
+
+.count_likes {
+	font-size: 24px;
+	padding-right: 5px;
+}
+
+.image {
+	margin-bottom: 10px;
+}

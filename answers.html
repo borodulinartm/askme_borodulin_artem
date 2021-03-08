@@ -13,7 +13,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">AskBorodulin</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
         </button>
         <div class="pull-center" id="navbarCollapse">
           <form class="d-flex">
@@ -21,115 +21,125 @@
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
-          <div class="pull-right">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="btn btn-success" href="ask_question.html" target="_blank">Ask</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Log in</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" tabindex="-1">Register</a>
-                </li>
-              </ul>
-          </div>
-          
+        <div class="pull-right">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="btn btn-success" href="ask_question.html" target="_blank">Ask</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1">Register</a>
+            </li>
+          </ul>
+        </div>
+        
       </div>
     </nav>
-      <div class="container">
-          <div class="row">
-            <!-- Block with questions -->
-              <div class="col-9">
-                  <div class="bg-light p-5 row question">
-                      <div class="col-2">
-                          <img src="img/question_icon.png">
-                      </div>
-                      <div class="col-10">
-                          <div class="header">How to create a moon park</div>
-                          <div class="text_question">
-                              This's a temp text, while django is not connected
-                              Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                          </div>
-                          <div class="answer_question">
-                              <span class="tags">Tags: <a href="#"> python</a></span>
-                          </div>
-                      </div>
-                  </div>
-                  <hr>
-                  <div class="header">Answers</div>
-                  <!-- Answer #1 -->
-                  <div class="bg-light p-5 row question">
-                      <div class="col-2">
-                          <img src="img/user_avatar.png">
-                      </div>
-                      <div class="col-10">
-                          <div class="text_question"> Bla-Bla-Bla </div>
-                          <form>
-                            <div class="form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label check_label" for="exampleCheck1">Is corrected</label>
-                            </div>
-                          </form>
-                      </div>
-                  </div>
-                  <!-- Answer #2 -->
-                  <div class="bg-light p-5 row question">
-                      <div class="col-2">
-                          <img src="img/user_avatar.png">
-                      </div>
-                      <div class="col-10">
-                          <div class="text_question"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-                          <form>
-                            <div class="form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label check_label" for="exampleCheck1">Is corrected</label>
-                            </div>
-                          </form>
-                      </div>
-                  </div>
-                  <!-- Form "Your answer" -->
-                  <hr>
-                  <div class="header">Your answer</div>
-                  <form>
-                    <div class="form-group">
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="12" placeholder="Enter your answer here"></textarea>
-                    </div>
-                    <div class="form-group title_input">
-                      <a class="btn btn-primary publish_btn">Publish</a>
-                    </div>
-                  </form>
-
+    <div class="container">
+      <div class="row">
+        <!-- Block with questions -->
+        <div class="col-9">
+          <div class="bg-light p-5 row question">
+            <div class="col-3">
+              <div class="image"><img src="img/question_icon.png"></div>
+              <div class="text-success count_likes_button"><span class="count_likes">+5</span></div>
+              <div class="like_button"><a class="float-right btn text-white btn-success like"> <i class="fa fa-heart"></i> Like</a></div>
+              <div class="like_button"><a class="float-right btn text-white btn-danger dislike"> <i class="fa fa-heart"></i> Dislike</a></div>
+            </div>
+            <div class="col-9">
+              <div class="header">How to create a moon park</div>
+              <div class="text_question">
+                This's a temp text, while django is not connected
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
-              <div class="col-3 tags_block">
-                  <div class="bg-light p-5 block_tags">
-                        <div class="tag_list_header">Popular tags</div>
-                        <div class="list_tags">
-                            <span class="current_tag">python</span>
-                            <span class="current_tag">perl</span>
-                            <span class="current_tag">kotlin</span>
-                            <span class="current_tag">swift</span>
-                        </div>
-                        <div class="favorite_members">Best members</div>
-                        <div><a href="#" class="answer_link">Mr.Freeman</a></div>
-                        <div><a href="#" class="answer_link">Dr.House</a></div>
-                        <div><a href="#" class="answer_link">Bender</a></div>
-                        <div><a href="#" class="answer_link">Queen Victoria</a></div>
-                        <div><a href="#" class="answer_link">V.Pupkin</a></div>
-                        
-                  </div>
+              <div class="answer_question">
+                <span class="tags">Tags: <a href="#"> python</a></span>
+              </div>
+            </div>
           </div>
+          <hr>
+          <div class="header">Answers</div>
+          <!-- Answer #1 -->
+          <div class="bg-light p-5 row question">
+            <div class="col-3">
+              <div class="image"><img src="img/user_avatar.png"></div>
+              <div class="image"><img src="img/gal_ochka.ico"></div>
+              <div class="text-success count_likes_button"><span class="count_likes">+26</span></div>
+              <div class="like_button"><a class="float-right btn text-white btn-success like"> <i class="fa fa-heart"></i> Like</a></div>
+              <div class="like_button"><a class="float-right btn text-white btn-danger dislike"> <i class="fa fa-heart"></i> Dislike</a></div>
+            </div>
+            <div class="col-9">
+              <div class="text_question"> Bla-Bla-Bla </div>
+              <form>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label check_label" for="exampleCheck1">Is corrected</label>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Answer #2 -->
+          <div class="bg-light p-5 row question">
+            <div class="col-3">
+              <div class="image"><img src="img/user_avatar.png"></div>
+              <div class="text-danger count_likes_button"><span class="count_likes">-3</span></div>
+              <div class="like_button"><a class="float-right btn text-white btn-success like"> <i class="fa fa-heart"></i> Like</a></div>
+              <div class="like_button"><a class="float-right btn text-white btn-danger dislike"> <i class="fa fa-heart"></i> Dislike</a></div>
+            </div>
+            <div class="col-9">
+              <div class="text_question"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+              <form>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label check_label" for="exampleCheck1">Is corrected</label>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Form "Your answer" -->
+          <hr>
+          <div class="header">Your answer</div>
+          <form>
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="12" placeholder="Enter your answer here"></textarea>
+            </div>
+            <div class="form-group title_input">
+              <a class="btn btn-primary publish_btn">Publish</a>
+            </div>
+          </form>
+        </div>
+        <div class="col-3 tags_block">
+          <div class="bg-light p-5 block_tags">
+            <div class="tag_list_header">Popular tags</div>
+            <div class="list_tags">
+              <span class="current_tag">python</span>
+              <span class="current_tag">perl</span>
+              <span class="current_tag">kotlin</span>
+              <span class="current_tag">swift</span>
+            </div>
+            <div class="favorite_members">Best members</div>
+            <div><a href="#" class="answer_link">Mr.Freeman</a></div>
+            <div><a href="#" class="answer_link">Dr.House</a></div>
+            <div><a href="#" class="answer_link">Bender</a></div>
+            <div><a href="#" class="answer_link">Queen Victoria</a></div>
+            <div><a href="#" class="answer_link">V.Pupkin</a></div>
+            
+          </div>
+        </div>
       </div>
+    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
